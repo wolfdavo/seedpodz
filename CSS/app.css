@@ -37,11 +37,16 @@ body {
 .navbar-collapse {
   justify-content: flex-end; }
 
-.nav-link {
+#navbarNav .nav-link {
   margin-right: 20px;
   transition: 0.2s ease-in-out; }
-  .nav-link:hover {
-    transform: scale(1.03); }
+  #navbarNav .nav-link:hover {
+    transform: scale(1.03);
+    color: #00a651; }
+
+.nav-logo {
+  height: 40px;
+  padding-bottom: 5px; }
 
 .wrapper {
   margin: auto; }
