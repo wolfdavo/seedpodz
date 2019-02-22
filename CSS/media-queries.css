@@ -1,10 +1,7 @@
-@media (max-width: 1366px) {
+@media (max-width: 1104px){
   .parallax-container {
     background-attachment: scroll;
   }
-}
-
-@media (max-width: 1104px){
   .flex-parent{
     flex-direction: column;
   }
