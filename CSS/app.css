@@ -37,6 +37,10 @@ h1, h2 {
   width: 100%;
   height: auto; }
 
+.what-is-a-seedpod {
+  background-image: url(../assets/whatisaseedpodbg.jpg);
+  padding: 50px 0; }
+
 .navbar-collapse {
   justify-content: flex-end; }
 
@@ -64,5 +68,36 @@ h1, h2 {
 .transparent {
   background-color: #333333;
   opacity: 0.9; }
+
+.img-styling {
+  width: auto;
+  height: 300px;
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.75); }
+
+.center-img {
+  text-align: center; }
+
+.flex-parent {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap; }
+
+.flex-child-2 {
+  align-self: center;
+  display: block;
+  flex: 3;
+  padding: 0 50px; }
+
+.flex-child-1 {
+  flex: 2; }
+
+.seedpod-info-header {
+  font-weight: bolder; }
+
+.seedpod-blurb ul {
+  font-size: 1.2rem; }
 
 /*# sourceMappingURL=app.css.map */

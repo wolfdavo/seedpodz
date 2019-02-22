@@ -1,0 +1,11 @@
+@media (max-width: 1104px){
+  .parallax-container {
+    background-attachment: scroll;
+  }
+  .flex-parent{
+    flex-direction: column;
+  }
+  .flex-child-2{
+    padding-top: 50px
+  }
+}
