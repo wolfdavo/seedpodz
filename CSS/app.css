@@ -15,7 +15,16 @@ body {
   background-repeat: no-repeat;
   background-size: cover; }
 
+.navbar {
+  background-color: #F5F5F5; }
+
 .navbar-collapse {
   justify-content: flex-end; }
+
+.nav-link {
+  margin-right: 20px;
+  transition: 0.2s ease-in-out; }
+  .nav-link:hover {
+    transform: scale(1.03); }
 
 /*# sourceMappingURL=app.css.map */
