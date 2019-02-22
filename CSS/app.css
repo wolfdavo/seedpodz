@@ -3,6 +3,10 @@ body {
   margin: 0;
   padding: 0; }
 
+.row {
+  width: 100%;
+  margin: 0; }
+
 .parallax-container {
   /* The image used */
   background-image: url(../assets/headerimg.jpeg);
@@ -38,7 +42,9 @@ body {
 .goodwill-content {
   color: #F5F5F5;
   text-align: center;
-  padding: 40px 0; }
+  padding: 40px 0;
+  font-family: "Indie Flower", cursive;
+  font-weight: bold; }
 
 .transparent {
   background-color: #333333;
