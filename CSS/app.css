@@ -3,4 +3,7 @@ body {
   margin: 0;
   padding: 0; }
 
+.navbar-collapse {
+  justify-content: flex-end; }
+
 /*# sourceMappingURL=app.css.map */
