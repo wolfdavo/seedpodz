@@ -1,7 +1,7 @@
 {
 "version": 3,
-"mappings": "AAAA,IAAI;EACF,KAAK,EAAE,IAAI;EACX,MAAM,EAAE,CAAC;EACT,OAAO,EAAE,CAAC;;ACHZ,gBAAgB;EACd,eAAe,EAAE,QAAQ",
-"sources": ["../SASS/base/_base.sass","../SASS/modules/_navbar.sass"],
+"mappings": "AAAA,IAAI;EACF,KAAK,EAAE,IAAI;EACX,MAAM,EAAE,CAAC;EACT,OAAO,EAAE,CAAC;;ACHZ,mBAAmB;EACjB,KAAK,EAAE,IAAI;EACX,MAAM,EAAE,IAAI;;EAGZ,gBAAgB,EAAE,uBAAuB;;EAGzC,MAAM,EAAE,KAAK;;EAGb,qBAAqB,EAAE,KAAK;EAC5B,mBAAmB,EAAE,MAAM;EAC3B,iBAAiB,EAAE,SAAS;EAC5B,eAAe,EAAE,KAAK;;ACdxB,gBAAgB;EACd,eAAe,EAAE,QAAQ",
+"sources": ["../SASS/base/_base.sass","../SASS/layouts/_header.sass","../SASS/modules/_navbar.sass"],
 "names": [],
 "file": "app.css"
 }
