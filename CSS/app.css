@@ -3,9 +3,16 @@ body {
   margin: 0;
   padding: 0; }
 
+h1, h2 {
+  font-family: "Indie Flower", cursive; }
+
+.row {
+  width: 100%;
+  margin: 0; }
+
 .parallax-container {
   /* The image used */
-  background-image: url(../assets/testimg.png);
+  background-image: url(../assets/headerimg.jpeg);
   /* Set a specific height */
   height: 500px;
   width: 100%;
@@ -15,7 +22,47 @@ body {
   background-repeat: no-repeat;
   background-size: cover; }
 
+.header-logo-row {
+  height: 500px; }
+
+.header-logo {
+  padding: 70px;
+  padding-top: 50px;
+  display: inline-block;
+  margin-top: auto;
+  margin-bottom: auto; }
+
+.container-dark {
+  background-color: #333333;
+  width: 100%;
+  height: auto; }
+
 .navbar-collapse {
   justify-content: flex-end; }
+
+#navbarNav .nav-link {
+  margin-right: 20px;
+  transition: 0.2s ease-in-out; }
+  #navbarNav .nav-link:hover {
+    transform: scale(1.03);
+    color: #00a651; }
+
+.nav-logo {
+  height: 40px;
+  padding-bottom: 5px; }
+
+.wrapper {
+  margin: auto; }
+
+.goodwill-content {
+  color: #F5F5F5;
+  text-align: center;
+  padding: 40px 0;
+  font-family: "Indie Flower", cursive;
+  font-weight: bold; }
+
+.transparent {
+  background-color: #333333;
+  opacity: 0.9; }
 
 /*# sourceMappingURL=app.css.map */
