@@ -19,6 +19,10 @@ body {
   background-repeat: no-repeat;
   background-size: cover; }
 
+.header-logo {
+  padding: 70px;
+  padding-top: 50px; }
+
 .container-dark {
   background-color: #333333;
   width: 100%;
