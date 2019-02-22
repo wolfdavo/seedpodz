@@ -4,12 +4,11 @@ body {
   padding: 0; }
 
 .parallax-container {
-  width: 100%;
-  height: auto;
   /* The image used */
-  background-image: url("paralax-img-here");
+  background-image: url("testimg.png");
   /* Set a specific height */
   height: 500px;
+  width: 100%;
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
   background-position: center;
