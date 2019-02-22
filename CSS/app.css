@@ -15,6 +15,11 @@ body {
   background-repeat: no-repeat;
   background-size: cover; }
 
+.container-dark {
+  background-color: #333333;
+  width: 100%;
+  height: auto; }
+
 .navbar {
   background-color: #F5F5F5; }
 
@@ -26,5 +31,17 @@ body {
   transition: 0.2s ease-in-out; }
   .nav-link:hover {
     transform: scale(1.03); }
+
+.wrapper {
+  margin: auto; }
+
+.goodwill-content {
+  color: #F5F5F5;
+  text-align: center;
+  padding: 40px 0; }
+
+.transparent {
+  background-color: #333333;
+  opacity: 0.9; }
 
 /*# sourceMappingURL=app.css.map */
