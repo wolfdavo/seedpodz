@@ -1,0 +1,53 @@
+.flex-link-parent
+  display: flex
+  align-items: center
+  flex-wrap: wrap
+
+.corporate
+  background-image: url(../assets/corporate.jpg)
+
+.wedding
+  background-image: url(../assets/wedding.jpg)
+
+.fundraisers
+  background-image: url(../assets/fundraiser.jpg)
+
+.personalised-events
+  background-image: url(../assets/personalised-events.jpg)
+
+.darken-link
+  display: flex
+  opacity: 1
+  background-color: rgba(0, 0, 0, 0.6)
+  width: 100%
+  height: 100%
+
+
+.link-title
+  align-self: center
+  text-align: center
+  width: 100%
+  color: $brand-light
+  font-weight: 700
+  font-size: 1.2rem
+  -moz-transition: all .5s
+  -webkit-transition: all .5s
+  transition: all .5s
+
+
+.links-item
+  flex: 1
+  height: 200px
+  font-family: $main-font
+  &:hover
+    .link-title
+      color: $brand-green
+
+.left-half-links,
+.right-half-links
+  margin: auto
+  flex: 1
+  display: flex
+  min-width: 350px
+  width: 100%
+  max-width: 648px
