@@ -6,6 +6,22 @@
     flex-direction: column;
   }
   .flex-child-2{
-    padding-top: 50px
+    padding-top: 50px;
+  }
+
+  .seed-pic-right,
+  .seed-blurb-left {
+    order: 1;
+    padding: 0;
+  }
+
+  .seed-pic-left,
+  .seed-pic-right{
+    margin-bottom: 50px;
+  }
+
+  .seed-blurb-left,
+  .seed-blurb-right{
+    text-align: center;
   }
 }
