@@ -52,10 +52,37 @@ h1, h2 {
   background-image: url(../assets/whatisaseedpodbg.jpg);
   background-position: center bottom; }
 
+.flex-parent {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap; }
+
+.flex-child-2 {
+  align-self: center;
+  display: block;
+  flex: 3;
+  padding: 0 50px; }
+
+.flex-child-1 {
+  flex: 2; }
+
+.footer-social-flexp {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap; }
+
+.flex-copy-wrap {
+  display: flex;
+  min-width: 100%;
+  align-items: center baseline; }
+  .flex-copy-wrap .copyright-credit {
+    flex: 1; }
+
 .navbar-collapse {
   justify-content: flex-end; }
 
 #navbarNav .nav-link {
+  color: #F5F5F5;
   margin-right: 20px;
   transition: 0.2s ease-in-out; }
   #navbarNav .nav-link:hover {
@@ -98,20 +125,6 @@ h1, h2 {
   -webkit-box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.75);
   box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.75); }
-
-.flex-parent {
-  display: flex;
-  align-items: center;
-  flex-wrap: wrap; }
-
-.flex-child-2 {
-  align-self: center;
-  display: block;
-  flex: 3;
-  padding: 0 50px; }
-
-.flex-child-1 {
-  flex: 2; }
 
 .seedpod-info-header {
   font-weight: bolder; }
@@ -212,5 +225,49 @@ h1, h2 {
 
 .checked {
   color: orange; }
+
+.footer-parent {
+  width: 100%;
+  height: auto;
+  background-image: url(../assets/footer-backg.jpg);
+  background-position: center bottom; }
+  .footer-parent a {
+    color: #F5F5F5;
+    transition: 0.1s ease-in-out; }
+    .footer-parent a:hover {
+      color: #00a651;
+      transform: scale(1.03); }
+
+.footer-content {
+  padding: 30px;
+  padding-bottom: 80px; }
+
+.footer-contact,
+.footer-logo,
+.footer-links {
+  flex: 1; }
+
+.social-icon {
+  padding: 0 10px 10px 0; }
+
+.footer-logo {
+  text-align: center; }
+  .footer-logo img {
+    height: 100px;
+    width: auto; }
+
+.phone-number-and-email {
+  color: #F5F5F5; }
+
+.footer-links-ul {
+  text-align: right;
+  font-size: 1.2rem;
+  list-style: none;
+  padding: 0; }
+
+.copyright-credit {
+  text-align: center;
+  color: #F5F5F5;
+  padding-bottom: 5px; }
 
 /*# sourceMappingURL=app.css.map */
