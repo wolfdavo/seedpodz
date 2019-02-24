@@ -205,7 +205,9 @@ h1, h2 {
   height: 200px;
   font-family: "Indie Flower", cursive; }
   .links-item:hover .link-title {
-    color: #00a651; }
+    color: #00a651;
+    transform: scale(1.07);
+    cursor: pointer; }
 
 .left-half-links,
 .right-half-links {
@@ -272,6 +274,8 @@ h1, h2 {
   text-align: center;
   color: #F5F5F5;
   padding-bottom: 5px; }
+  .copyright-credit a {
+    color: #6C757D; }
 
 .contact-header {
   text-align: center;
@@ -290,7 +294,5 @@ h1, h2 {
   margin: 100px 50px; }
   .thank-you-wrapper h2 {
     margin-bottom: 50px; }
-
-
 
 /*# sourceMappingURL=app.css.map */
