@@ -5,7 +5,7 @@ if(empty($_POST['Name'])  ||
    empty($_POST['EMail']) ||
    empty($_POST['Message']))
 {
-    $errors .= "\n Error: all fields are required";
+    $errors .= "\n Error: Please fill in all fields marked with an *";
 }
 
 $name = $_POST['Name'];
@@ -45,6 +45,8 @@ if( empty($errors))
 <?php
 echo nl2br($errors);
 ?>
+<br><br>
+<a href="contact.html">Back to contact form</a>
 
 
 </body>

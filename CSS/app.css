@@ -284,4 +284,10 @@ h1, h2 {
   margin-top: 20px;
   float: right; }
 
+.thank-you-wrapper {
+  text-align: center;
+  margin: 100px 50px; }
+  .thank-you-wrapper h2 {
+    margin-bottom: 50px; }
+
 /*# sourceMappingURL=app.css.map */
