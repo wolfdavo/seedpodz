@@ -5,7 +5,7 @@ if(empty($_POST['Name'])  ||
    empty($_POST['EMail']) ||
    empty($_POST['Message']))
 {
-    $errors .= "\n Error: all fields are required";
+    $errors .= "\n Error: Please fill in all fields marked with an *";
 }
 
 $name = $_POST['Name'];
@@ -34,18 +34,27 @@ if( empty($errors))
 	header('Location: contact-form-thank-you.html');
 }
 ?>
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<!DOCTYPE HTML>
 <html>
 <head>
-	<title>Contact form handler</title>
+	<?php include('./includes/html-head.html'); ?>
 </head>
 
 <body>
-<!-- This page is displayed only if there is some error -->
-<?php
-echo nl2br($errors);
-?>
 
+  <?php include('./includes/navbar.html'); ?>
+
+  <div class="container-light" style="padding: 100px">
+    <!-- This page is displayed only if there is some error -->
+    <?php
+    echo nl2br($errors);
+    ?>
+    <br><br>
+    <a class="btn btn-success" href="contact.html">Back to contact form</a>
+  </div>
+
+
+<?php include('./includes/footer.html'); ?>
 
 </body>
 </html>
