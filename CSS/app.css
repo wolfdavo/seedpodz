@@ -78,7 +78,8 @@ h1, h2 {
   min-width: 100%;
   align-items: center baseline; }
   .flex-copy-wrap .copyright-credit {
-    flex: 1; }
+    flex: 1;
+    margin-bottom: 10px; }
 
 .navbar-collapse {
   justify-content: flex-end; }
@@ -289,5 +290,7 @@ h1, h2 {
   margin: 100px 50px; }
   .thank-you-wrapper h2 {
     margin-bottom: 50px; }
+
+
 
 /*# sourceMappingURL=app.css.map */
