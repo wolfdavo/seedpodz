@@ -2,6 +2,8 @@ body {
   width: 100%;
   margin: 0;
   padding: 0; }
+  body a {
+    color: #F5F5F5; }
 
 h1, h2 {
   font-family: "Indie Flower", cursive; }
@@ -269,5 +271,17 @@ h1, h2 {
   text-align: center;
   color: #F5F5F5;
   padding-bottom: 5px; }
+
+.contact-header {
+  text-align: center;
+  font-family: "Indie Flower", cursive;
+  margin-bottom: 40px; }
+
+.contact-form {
+  padding-bottom: 40px; }
+
+.form-submit-btn {
+  margin-top: 20px;
+  float: right; }
 
 /*# sourceMappingURL=app.css.map */
