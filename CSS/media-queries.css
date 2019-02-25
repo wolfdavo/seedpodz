@@ -1,4 +1,4 @@
-@media (max-width: 1104px){
+@media screen and (max-width: 1104px){
   .parallax-container {
     background-attachment: scroll;
   }
@@ -60,11 +60,20 @@
     padding: 5px;
   }
 
+
 }
 
 @media (max-width: 600px){
   .review-item h2{
     font-size: 1.3rem;
+  }
+
+  .parallax-header{
+    font-size: 3rem;
+  }
+
+  .revenue-text-body{
+    font-size: 1rem;
   }
 
 }
