@@ -9,8 +9,9 @@ if(empty($_POST['Name'])  ||
 }
 
 $name = $_POST['Name'];
-$email_address = $_POST['EMail'];
+$website = $_POST['Website'];
 $phone = $_POST['Phone'];
+$email_address = $_POST['EMail'];
 $message = $_POST['Message'];
 
 if (!preg_match(
@@ -20,12 +21,18 @@ $email_address))
     $errors .= "\n Error: Invalid email address";
 }
 
+$website_email_string = '';
+
+if ( !empty($website) || $website !== '') {
+  $website_email_string = ' from: ' + $website;
+}
+
 if( empty($errors))
 {
 	$to = $myemail;
-	$email_subject = "Contact form submission: $name";
-	$email_body = "You have received a new message. ".
-	" Here are the details:\n Name: $name \n Email: $email_address \n Phone: $phone \n Message: \n $message";
+	$email_subject = "Wholesale form submission: $name $website_email_string";
+	$email_body = "You have received a wholesale inquiry! ".
+	" Here are the details:\n Name: $name \n Email: $email_address \n Website: $website \n Phone: $phone \n Message: \n $message";
 
 	$headers = "From: $myemail\n";
 	$headers .= "Reply-To: $email_address";
