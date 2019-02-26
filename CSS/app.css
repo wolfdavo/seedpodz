@@ -30,6 +30,10 @@ a:hover {
   background-repeat: no-repeat;
   background-size: cover; }
 
+.faq-header {
+  background-image: url(../assets/whatisaseedpodbg.jpg);
+  height: 300px; }
+
 .corporate-header {
   background-image: url(../assets/header-images/corporate-big.jpg);
   height: 300px; }
@@ -88,6 +92,12 @@ a:hover {
 
 .revenue-body {
   padding: 0; }
+
+.btn-link {
+  color: #343A40;
+  font-family: sans-serif; }
+  .btn-link:hover {
+    color: #00a651; }
 
 .flex-parent {
   display: flex;
