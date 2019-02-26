@@ -99,6 +99,10 @@ a:hover {
   .btn-link:hover {
     color: #00a651; }
 
+.aboutus-body {
+  font-size: 1.2rem;
+  padding: 30px; }
+
 .flex-parent {
   display: flex;
   align-items: center;
@@ -170,6 +174,14 @@ a:hover {
   width: auto;
   height: 200px;
   border-radius: 10px;
+  -webkit-box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.75); }
+
+.aboutus-img {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
   -webkit-box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.75);
   box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.75); }
