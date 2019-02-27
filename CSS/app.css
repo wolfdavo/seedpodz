@@ -92,15 +92,15 @@ a:hover {
 
 .review-section {
   background-image: url(../assets/whatisaseedpodbg.jpg);
-  background-position: center bottom; }
+  background-position: center bottom;
+  min-height: 602px; }
 
 .revenue-body {
   padding: 0; }
 
 .btn-link {
   color: #343A40;
-  font-family: sans-serif;
-  text-decoration: underline; }
+  font-family: sans-serif; }
   .btn-link:hover {
     color: #00a651; }
 
@@ -118,6 +118,9 @@ a:hover {
   display: block;
   flex: 3;
   padding: 0 50px; }
+
+.review-flex-child {
+  align-self: center; }
 
 .flex-child-1 {
   flex: 2; }
