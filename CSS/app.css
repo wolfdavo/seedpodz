@@ -1,3 +1,10 @@
+@font-face {
+  font-family: "dearjoe_5_casualregular";
+  src: url("../assets/font/djoe5cas.ttf") format("truetype");
+  src: url("../assets/font/djoe5cas.woff2") format("woff2");
+  src: url("../assets/font/djoe5cas.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
 body {
   width: 100%;
   margin: 0;
@@ -6,7 +13,7 @@ body {
     color: #F5F5F5; }
 
 h1, h2 {
-  font-family: "Indie Flower", cursive; }
+  font-family: "dearjoe_5_casualregular"; }
 
 .row {
   width: 100%;
@@ -172,7 +179,7 @@ a:hover {
   color: #F5F5F5;
   text-align: center;
   padding: 40px 0;
-  font-family: "Indie Flower", cursive;
+  font-family: "dearjoe_5_casualregular";
   font-weight: bold; }
 
 .transparent {
@@ -288,7 +295,7 @@ a:hover {
 .links-item {
   flex: 1;
   height: 200px;
-  font-family: "Indie Flower", cursive; }
+  font-family: "dearjoe_5_casualregular"; }
   .links-item:hover .link-title {
     color: #00a651;
     transform: scale(1.07);
@@ -364,7 +371,7 @@ a:hover {
 
 .contact-header {
   text-align: center;
-  font-family: "Indie Flower", cursive;
+  font-family: "dearjoe_5_casualregular";
   margin-bottom: 40px; }
 
 .contact-form {
