@@ -29,13 +29,19 @@ a:hover {
   /* The image used */
   background-image: url(../assets/headerimg-lqm.jpeg);
   /* Set a specific height */
-  height: 500px;
+  height: 580px;
   width: 100%;
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover; }
+
+.variety-header {
+  padding: 20px 60px;
+  max-width: 100%; }
+  .variety-header h1 {
+    font-size: 4rem; }
 
 .faq-header {
   background-image: url(../assets/whatisaseedpodbg.jpg);
@@ -97,6 +103,13 @@ a:hover {
   background-image: url(../assets/whatisaseedpodbg.jpg);
   padding: 50px 0; }
 
+.wholesale-section {
+  background-image: url(../assets/whatisaseedpodbg.jpg);
+  padding: 30px; }
+
+.wholesale-body {
+  font-size: 1.3rem; }
+
 .review-section {
   background-image: url(../assets/whatisaseedpodbg.jpg);
   background-position: center bottom;
@@ -130,9 +143,6 @@ a:hover {
   display: block;
   flex: 3;
   padding: 0 50px; }
-
-.review-flex-child {
-  align-self: center; }
 
 .flex-child-1 {
   flex: 2; }
@@ -193,7 +203,7 @@ a:hover {
 
 .img-styling {
   width: auto;
-  height: 300px;
+  height: 220px;
   border-radius: 10px;
   -webkit-box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.75);
@@ -226,6 +236,15 @@ a:hover {
   -moz-box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.75);
   box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.75); }
 
+.wholesale-article-img {
+  width: 95%;
+  height: 250px;
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.75);
+  margin-bottom: 20px; }
+
 .seedpod-info-header {
   font-weight: 500; }
 
@@ -234,7 +253,7 @@ a:hover {
 
 .seed-type {
   display: flex;
-  align-items: center;
+  align-items: start;
   flex-wrap: wrap;
   padding: 50px 60px; }
 
@@ -244,7 +263,6 @@ a:hover {
 
 .seed-blurb-right {
   flex: 3;
-  align-self: center;
   order: 1; }
 
 .seed-pic-right {
@@ -336,6 +354,9 @@ a:hover {
 .review-item .fa {
   font-size: 2rem;
   filter: drop-shadow(0px 0px 2px #222); }
+
+.review-title h1 {
+  padding-top: 30px; }
 
 .footer-parent {
   width: 100%;
