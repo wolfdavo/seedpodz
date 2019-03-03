@@ -9,6 +9,10 @@
     padding-top: 50px;
   }
 
+  .seed-type{
+    align-items: center;
+  }
+
   .seed-pic-right,
   .seed-blurb-left {
     order: 1;
@@ -68,12 +72,28 @@
     font-size: 1.3rem;
   }
 
+  .review-item{
+    padding: 80px 40px;
+  }
+
   .parallax-header{
     font-size: 3rem;
   }
 
+  .header-logo{
+    padding: 20px
+  }
+
   .revenue-text-body{
     font-size: 1rem;
+  }
+
+  .wholesale-section .variety-header,
+  .personal .variety-header{
+    padding-left: 0;
+    padding-right: 0;
+    text-align: center;
+
   }
 
 }
