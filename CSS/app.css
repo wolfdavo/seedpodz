@@ -245,6 +245,14 @@ a:hover {
   box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.75);
   margin-bottom: 20px; }
 
+.aboutus-portrait {
+  width: auto;
+  height: 100px;
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.75); }
+
 .seedpod-info-header {
   font-weight: 500; }
 
