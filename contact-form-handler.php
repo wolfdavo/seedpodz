@@ -15,7 +15,7 @@ if(isset($_POST['submit'])) {
   $url = "https://www.google.com/recaptcha/api/siteverify?secret=$secretKey&response=$responseKey";
   $response = file_get_contents($url);
   $response = json_decode($response);
-  if ($response->!success) {
+  if ($response->success == false) {
     $errors .= "Human verification failed.";
   }
 
