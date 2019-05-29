@@ -8,6 +8,19 @@ if(empty($_POST['Name'])  ||
     $errors .= "\n Error: Please fill in all fields marked with an *";
 }
 
+if(isset($_POST['submit'])) {
+  $secretKey = "6Lf8Z6EUAAAAANDymCU7RWZXpKLpxUD2_2mok7j6";
+  $responseKey = $_POST['g-recaptcha-response'];
+
+  $url = "https://www.google.com/recaptcha/api/siteverify?secret=$secretKey&response=$responseKey";
+  $response = file_get_contents($url);
+  $response = json_decode($response);
+  if ($response->!success) {
+    $errors .= "Human verification failed.";
+  }
+
+}
+
 $name = $_POST['Name'];
 $email_address = $_POST['EMail'];
 $phone = $_POST['Phone'];
